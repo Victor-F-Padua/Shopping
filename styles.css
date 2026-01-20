@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    display: flex;
+
+}
+
+.container-left {
+    width: 60%;
+    height: 100vh;
+    margin-top: 10%;
+    margin-left: 60px;
+}
+
+.container-right {
+    width: 40%;
+    background-color: rgb(93, 93, 125, 0.2);
+}
+
+h1 {
+    font-size: 55px;
+    color: #5D5D7D;
+    width: 400px;
+    font-weight: 500;
+
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #5D5D7D;
+    width: 600px;
+    text-align: justify;
+}
+
+.button-left {
+    margin-top: 30px;
+    background: #9499EA;
+    border: none;
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.button-left:hover {
+    background: #7C81E3;
+    cursor: pointer;
+}
+
+.button-left:active {
+    background: #6166C9;
+    transform: scale(0.98);
+}
+
+header {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #5D5D7D;
+    font-size: 30px;
+    padding-left: 40px;
+
+}
+
+a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+img {
+    width: 400px;
+    position: absolute;
+    margin-top: 150px;
+    left: 55%;
+}
+
+
+@media screen and (max-width: 1080px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-left, .container-right {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+
+    .container-right {
+        height:65vh;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        position: static;
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+        width: 90%;
+        text-align: center;
+    }
+
+    p {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .button-left {
+        display: block;
+        margin: 20px auto;
+    }
+
+    header  {
+        display: none;
+    }
+}
+
