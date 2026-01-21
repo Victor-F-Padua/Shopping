@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="/img/shopping.gif" width="400px" />
+</div>
+
 # 🛒 Easy Shopping Via Mobile
 
 Responsive landing page inspired by modern mobile shopping platforms and login-style layouts.
@@ -29,12 +33,22 @@ It was built to practice **HTML and CSS**, especially flexbox positioning and re
 
 ## 📸 Project Preview
 
+### 🖥️ Desktop
 <div align="center">
-  <img src="Shopping.gif" width="600px" />
+  <img src="/img/PCsite.png" width="700px" />
+</div>
+
+### 💻 Tablet
+<div align="center">
+  <img src="/img/TabletSite.png" width="500px" />
+</div>
+
+### 📱 Mobile
+<div align="center">
+  <img src="/img/CellPhoneSite.png" width="300px" />
 </div>
 
 ---
-
 ## 🌐 Live Demo
 
 👉 https://Victor-F-Padua.github.io/Shopping
@@ -45,7 +59,6 @@ It was built to practice **HTML and CSS**, especially flexbox positioning and re
 
 ```bash
 # Clone the repository
-git clone https://github.com/Victor-F-Padua/Shopping
-.git
+git clone https://github.com/Victor-F-Padua/Shopping.git
 
 # Open index.html in your browser
